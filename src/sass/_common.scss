@@ -1,1 +1,32 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+#search-box {
+    margin: 10px;
+}
+
+.country-list {
+    list-style: none;
+    padding: 10px;
+}
+
+.country-list__line {
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+}
+
+.country-list__images {
+    width: 35px; 
+    height: 25px;
+}
+
+.country-info {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.country {
+    list-style: none;
+    padding: 0;
+}
